@@ -23,7 +23,7 @@
 &kp ESCAPE      &kp Q         &kp W         &kp E   &kp R   &kp T                             &kp Y      &kp U   &kp I      &kp O    &kp P      &kp BSPC
 &kp TAB         &kp A         &kp S         &kp D   &kp F   &kp G   &trans         &trans     &kp H      &kp J   &kp K      &kp L    &kp SEMI   &kp ENTER
 &kp LEFT_SHIFT  &kp Z         &kp X         &kp C   &kp V   &kp B   &kp LA(GRAVE)  &none      &kp N      &kp M   &kp COMMA  &kp DOT  &kp SLASH  &tog 1
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &none   &tog 3  &none   &none          &kp ENTER  &kp SPACE  &trans  &trans     &none    &none      &tog 2
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &none   &mo 1   &mo 2   &mo 3          &kp ENTER  &kp SPACE  &trans  &trans     &none    &none      &tog 2
             >;
         };
 
@@ -50,10 +50,10 @@
         layer_3_mouse {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&none   &none   &none   &none   &none   &none                   &none   &none      &none      &none   &none   &none
+&none   &none   &none   &none   &none   &none   &trans  &trans  &none   &mkp LCLK  &mkp RCLK  &none   &none   &none
+&none   &none   &none   &none   &none   &none   &none   &none   &none   &none      &none      &none   &none   &none
+&none   &none   &none   &none   &none   &none   &none   &none   &none   &none      &none      &none   &none   &none
             >;
         };
     };
