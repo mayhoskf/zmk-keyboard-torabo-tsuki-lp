@@ -23,7 +23,7 @@
 &kp ESCAPE      &kp Q         &kp W         &kp E   &kp R   &kp T                             &kp Y      &kp U   &kp I      &kp O            &kp P      &kp BSPC
 &kp TAB         &kp A         &kp S         &kp D   &kp F   &kp G   &trans         &trans     &kp H      &kp J   &kp K      &kp L            &kp SEMI   &kp ENTER
 &kp LEFT_SHIFT  &kp Z         &kp X         &kp C   &kp V   &kp B   &kp LA(GRAVE)  &kp LANG5  &kp N      &kp M   &kp COMMA  &kp DOT          &kp MINUS  &none
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &none   &mo 1   &mo 2   &mo 3          &kp ENTER  &kp SPACE  &trans  &trans     &kp RIGHT_SHIFT  &none      &none
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &to 0   &tog 1  &tog 2  &tog 3         &kp ENTER  &kp SPACE  &trans  &trans     &kp RIGHT_SHIFT  &none      &none
             >;
         };
 
