@@ -23,7 +23,7 @@
 &kp ESCAPE      &kp Q         &kp W         &kp E   &kp R   &kp T                             &kp Y      &kp U   &kp I      &kp O           &kp P           &kp BSPC
 &kp TAB         &kp A         &kp S         &kp D   &kp F   &kp G   &trans         &trans     &kp H      &kp J   &kp K      &kp L           &kp MINUS       &kp ENTER
 &kp LEFT_SHIFT  &kp Z         &kp X         &kp C   &kp V   &kp B   &kp LA(GRAVE)  &none      &kp N      &kp M   &kp COMMA  &kp DOT         &kp UP_ARROW    &kp SEMICOLON
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &to 0   &mo 1   &mo 2   &mo 3          &kp ENTER  &kp SPACE  &trans  &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &to 0   &mo 1   &tog 2  &mo 3          &kp ENTER  &kp SPACE  &trans  &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
@@ -40,9 +40,9 @@
         layer_2_mouse {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans            &trans     &trans  &trans
-&none   &none   &none   &none   &none   &none                   &none   &none      &msc MOVE_Y(20)   &none      &none   &none
+&none   &none   &none   &none   &none   &none                   &none   &mkp MB4   &msc MOVE_Y(20)   &mkp MB5   &none   &none
 &none   &none   &none   &none   &none   &none   &trans  &trans  &none   &mkp LCLK  &mkp MCLK         &mkp RCLK  &none   &none
-&none   &none   &none   &none   &none   &none   &none   &none   &none   &mkp MB4   &msc MOVE_Y(-20)  &mkp MB5   &none   &none
+&none   &none   &none   &none   &none   &none   &none   &none   &none   &mo 4      &msc MOVE_Y(-20)  &none      &none   &none
 &none   &none   &none   &to 0   &mo 1   &mo 2   &mo 3   &none   &none   &trans     &trans            &none      &none   &none
             >;
         };
